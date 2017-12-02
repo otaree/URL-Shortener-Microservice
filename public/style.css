@@ -1,0 +1,39 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: white;
+	/*text-align: center;*/
+	margin: 0 10% 0 10%;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.user-stories {
+	border-left-style: solid;
+	border-color: gray;
+	border-width: 4px;
+	padding-left: 20px;
+}
+
+p {
+	font-size: 19px;
+}
+
+code {
+	font-size: 12px;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	border-radius: 4px;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
