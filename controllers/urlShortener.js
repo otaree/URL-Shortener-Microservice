@@ -30,7 +30,7 @@ module.exports = function (app) {
             MongoClient.connect(url, function (err, db) {
                 if (err) throw err;
                 db.collection("website").find({
-                    "short_url": 6
+                    "short_url": userUrl
                 }).toArray(function (err, result) {
                     if (err) throw err;
                     if (result.length > 0) {
