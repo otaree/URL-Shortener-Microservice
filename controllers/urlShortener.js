@@ -1,6 +1,7 @@
 // mongodb client
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/mydb";
+//var url = "mongodb://localhost:27017/mydb";
+var url = "mongodb://ota:1010101010@ds127506.mlab.com:27506/url-shortner";
 var async = require('async');
 
 function checkUrl(url) {
